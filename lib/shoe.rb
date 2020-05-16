@@ -3,15 +3,15 @@ class Shoe
   attr_reader :brand
   
   BRANDS=[]
-  BRANDSS=[]
+  # BRANDSS=[]
   #BRANDS_UNIQUE=[]
 
   def initialize(brand)
     @brand = brand
-    BRANDS << brand
+    # BRANDS << brand
     
-    if !(BRANDSS.include?(brand))
-      BRANDSS << brand
+    if !(BRANDS.include?(brand))
+      BRANDS << brand
     end
   end
 
